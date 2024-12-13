@@ -9,7 +9,7 @@
   --brand-color-dark: #1d4ed8;
   --bg-color: #0f172a;
   --stroke-color: #1e293b;
-  --text-color-primary: #f1f5f;
+  --text-color-primary: #f1f5f9;
   --text-color-secondary: #cbd5e1;
 
   --font-family: "Archivo", sans-serif;
@@ -40,4 +40,19 @@ h1,
 h2,
 h3 {
   font: inherit;
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 32px;
+}
+
+/* utility-first*/
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }
