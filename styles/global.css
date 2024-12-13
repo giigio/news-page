@@ -48,11 +48,10 @@ h3 {
   padding-inline: 32px;
 }
 
-/* utility-first*/
-.grid {
-  display: grid;
+img {
+  max-width: 100%;
 }
 
-.grid-flow-col {
-  grid-auto-flow: column;
+main {
+  margin-top: 40px;
 }
