@@ -4,4 +4,16 @@
     object-fit: cover;
     border-radius: 4px;
   }
+  .card {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%;
+
+      background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
+    }
+  }
 }
